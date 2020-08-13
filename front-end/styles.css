@@ -1,0 +1,33 @@
+
+.btn{
+  width: 6rem;
+}
+.hole{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+body{
+
+  background: linear-gradient(90deg, #848ccf 50%, #ffe4e4);
+
+  text-align: center;
+
+}
+h1{
+  font-family: 'Playfair Display SC', serif;
+}
+.navbar{
+  background-color: #ebecf1;
+
+  font-family: 'DM Serif Display', serif;
+}
+.me{
+  font-weight: 900;
+  font-size: 4rem;
+}
+.text-center{
+  margin-bottom: 40px;
+}

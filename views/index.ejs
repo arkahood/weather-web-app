@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ok</title>
+  <link rel="stylesheet" href="styles1.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand text-secondary" href="#"><h1 class="me">Arkajit</h1></a>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-3" style="font-weight : bold"><%= q %>:<h1 class="h4">(<%=output%>)</h1></h1>
+      <h1 class="display-4">The temperature is <%=Temp%></h1>
+      <p class="lead">FEELS LIKE : <%=feels%></p>
+      <p class="lead">Minimum Temperature : <%=min%></p>
+      <p class="lead">Maximum Temperature : <%=max%></p>
+      <p class="lead">Humidity :<%= humidity%> %</p>
+      <p class="lead"> Description : <%= des %></p>
+      <img src=<%=url%> alt=""><br>
+      <form  action="/" method="post">
+          <button class="btn btn-primary" type="submit" name="button" value="ok">Try A Different City</button>
+      </form>
+
+    </div>
+  </div>
+</body>
+
+</html>
